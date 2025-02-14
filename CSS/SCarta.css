@@ -1,0 +1,138 @@
+:root{
+    --color-1: #758494;
+    --color-2: #49231c;
+    --color-3: #FFFFFF;
+    --color-4: #f15d68;
+    --color-5: #7a0811;
+}
+body{
+    background-image: url(img/fondo3.jpeg);
+    margin: 0px;
+}
+
+header{
+    height: 100px;
+    background-color: var(--color-1);
+    color: var(--color-5);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 0px 10px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+}
+.input{
+    width: 60px ;
+    height: 25px;
+    border: var(--color-5) solid 2px;
+    border-radius: 0px;
+}
+h2{
+    margin: 10px 10px;
+}
+h4{
+    margin: 10px 0px  ;
+}
+nav{
+    background-color: var(--color-3);
+    border: var(--color-5) solid 2px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--color-5);
+    height: 40px;
+    margin: 0px 20px;
+}
+input{
+    background-color: var(--color-3);
+    border: var(--color-5) solid 2px;
+    border-radius: 50px;
+    width: 70px;
+}
+
+article{
+    background-color: var(--color-3);
+    border: var(--color-5) solid 2px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+h1{
+    display: flex;
+    justify-content: center;;
+}
+legend{
+    background-color: var(--color-1);
+    border: var(--color-5) solid 2px;
+    
+}
+fieldset{
+    margin: 15px;
+    background-color: var(--color-3);
+    border: var(--color-5) solid 2px;
+}
+div{
+    display: flex;
+    align-items: center;
+}
+#DivbuttonCuest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#buttonCuest{
+    width: 110px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.divButton{
+    justify-content: center;
+    margin: 15px 0px 0px 0px;
+}
+#modal::backdrop{
+    background-color: rgba(0, 0, 0,.55);
+}
+#modal{
+    background-color: var(--color-3);
+    border: var(--color-2) solid 2px;
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    text-align: center;
+}
+#imgModal{
+    width: 50px;
+}
+#a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+#buttonModal{
+    width: 80px;
+    height: 20px;
+    font-size: 10px;
+}
+
+footer{
+    background-color: var(--color-1);
+    color: var(--color-5);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0px 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+
+}

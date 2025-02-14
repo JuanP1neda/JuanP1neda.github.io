@@ -1,0 +1,132 @@
+:root{
+    --color-1: #758494;
+    --color-2: #49231c;
+    --color-3: #FFFFFF;
+    --color-4: #f15d68;
+    --color-5: #7a0811;
+}
+body{
+    background-image: url(img/fondo3.jpeg);
+    margin: 0px;
+}
+
+header{
+    height: 100px;
+    background-color: var(--color-1);
+    color: var(--color-5);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 0px 10px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+}
+.input{
+    width: 60px ;
+    height: 25px;
+    border: var(--color-5) solid 2px;
+    border-radius: 0px;
+}
+h2{
+    margin: 10px 10px;
+}
+h4{
+    margin: 10px 0px  ;
+}
+nav{
+    background-color: var(--color-3);
+    border: var(--color-5) solid 2px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--color-5);
+    height: 40px;
+    margin: 0px 20px;
+}
+
+
+#info{
+    background-color: var(--color-3);
+    border: var(--color-5) solid 2px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+#premio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;height: 200px;
+    background-color: var(--color-3);
+    border: var(--color-5) solid 2px;
+    border-radius: 20px;
+}
+#text{
+    border: solid 2px;
+    background-color: var(--color-3);
+    width: 100px;height: 20px;
+}
+
+.button{
+    background-color: var(--color-3);
+    border: var(--color-5) solid 2px;
+    border-radius: 50px;
+    width: 70px; height: 25px;
+}
+.divPins1_F{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    text-align: start;
+}
+dialog::backdrop{
+    background-color: rgba(0, 0, 0,.55);
+}
+.acertijoModelBien{
+    border-radius: 20px;
+    border: var(--color-5) solid 2px;
+}
+.acertijoModelMal{
+    border-radius: 20px;
+    border:rgb(207, 15, 15) solid 4px;
+}
+.div_model_1{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pModel{
+    color: black;
+}
+.buttonModelBien{
+    background-color: var(--color-3);
+    border: var(--color-5) solid 2px;
+    border-radius: 10px;
+    width: 90px; height: 25px;
+}
+.buttonModelMal{
+    background-color: var(--color-3);
+    border: rgb(207, 15, 15) solid 2px;
+    border-radius: 10px;
+    width: 90px; height: 25px;
+}
+footer{
+    background-color: var(--color-1);
+    color: var(--color-5);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0px 10px;
+    width: 100%;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+
+}

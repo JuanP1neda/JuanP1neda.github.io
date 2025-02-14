@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/cupid.png">
+    <link rel="stylesheet" href="CSS/SAcertijoFinal.css">
+    <title>San Valentin</title>
+</head>
+
+
+<body>
+<header>
+    <img src="img/cupid.png" alt="" width="20%">
+    <h1>Acertijos</h1>
+    <img src="img/cupid.png" alt="" width="20%">
+</header>
+
+<nav>
+    <a href="Acertijo3.html"><input class="button" type="button" value="Atrás"></a>
+    <h3>Final</h3>
+</nav>
+
+<section>
+    <article id="info">
+        <p>Bueno amor, esto seria todo por ahora, ahora solo tienes que ingresar el código obtenido por jugar y te dare tu regalo, y no te preocupes si no hubieras podido completar algo yo te iba a ayudar con pistas o mas. Este es el regalo principal, mi objetivo con esta pagina es mantenerla en funcionamiento, con temáticas de conversación o incluso preguntas de parejas pero bueno para eso necesito mas tiempo. espero que halla gusta y bueno sin mas preámbulos reclama el pequeño regalo que preparé para ti amor. <br> NOTA: Si no estoy contigo mándame una captura de la pagina que saldrá cuando introduzcas el código para yo saber que si lo hiciste, y te lo daré cuando nos veamos.
+        </p>
+    </article>
+    <article id="premio">
+        <h3>Reclama tu Premio</h3>
+        <input type="text" id="text" placeholder="Ingrese el Código">
+        <br>
+        <input type="button" class="button" value="Reclamar" onclick="acertijoFinalP()">
+    </article>
+</section>
+
+
+<footer>
+    <h4>Referencia</h4>
+    <a href="https://www.flaticon.es/iconos-gratis/iniciar-sesion" title="iniciar sesión iconos">Iniciar sesión iconos creados por Freepik - Flaticon</a>
+    <br>
+</footer>
+
+<dialog id="modal"  class="acertijoModelBien">
+    <div class="div_model_1">
+        <img src="img/cupid.png" alt="copido" width="70px">
+        <h2>Fin</h2>
+        <p class="pModel">Esto seria todo amor, esta en la captura de pantalla que me tienes que enviar para yo saber que finalizaste. por favor deja en mi WhatsApp si te gusto. Te quiero muchísimo mi amor, Feliz Dia de San Valentin </p>
+        <a href="contenido.html"><input class="buttonModelBien" type="button" value="Finalizar"></a>
+    </div>
+</dialog>
+
+<dialog id="modalMal" class="acertijoModelMal">
+    <div class="div_model_1">
+        <img src="img/no.gusta.png" alt="bien" width="70px">
+        <h2>¡¡Código Incorrecto!!</h2>
+        <p class="pModel">Amor verifica que estés escribiendo bien el código.</p>
+        <a href="AcertijoFinal.html"><input class="buttonModelMal" type="button" value="Reiniciar"></a>
+    </div>
+</dialog>
+
+<script src="JS/JSAcertijoFin.js"></script>
+</body>
+</html>

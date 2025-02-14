@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/cupid.png">
+    <link rel="stylesheet" href="CSS/SAcertijos.css">
+    <title>San Valentin</title>
+</head>
+
+<body>
+<header>
+    <a href="contenido.html"><input type="button" value="Atrás"></a>
+    <h2>Acertijos</h2>
+    <img src="img/cupid.png" alt="" width="20%">
+</header>
+
+<dialog id="modal"  class="acertijoModelBien">
+    <div class="div_model_1">
+        <img src="img/me-gusta.png" alt="bien" width="70px">
+        <h2>¡¡Muy bien amor!!</h2>
+        <p class="pModel">Sigue asi mi amor, ya vamos para el Nivel 2 <br> El segundo dígito del código es: 1</p>
+        <a href="Acertijo2.html"><input class="buttonModelBien" type="button" value="Siguiente"></a>
+    </div>
+</dialog>
+
+<dialog id="modalMal" class="acertijoModelMal">
+    <div class="div_model_1">
+        <img src="img/no.gusta.png" alt="bien" width="70px">
+        <h2>¡¡Muy mal amor!!</h2>
+        <p class="pModel">Amor, comprueba cada acertijo con el botón comprobar para que sepas si respondes bien o mal</p>
+        <a href="Acertijo.html"><input class="buttonModelMal" type="button" value="Reiniciar"></a>
+    </div>
+</dialog>
+
+<section>
+    
+    <fieldset>
+        <legend>Acertijo 1.1</legend>
+        Soy un sentimiento que nace del corazón,
+        puedo ser dulce como la miel o amargo como el limón.
+        Puedo unir a dos almas o causar dolor y desolación.
+        ¿Qué soy?
+        <p><b>RESPUESTA</b></p>
+    
+        <div id="divPins1_F">    
+            <div>
+                <input type="radio" id="pasion" name="#1">
+                <label for="pasion">La Pasión</label>
+            </div>
+            <div>
+                <input type="radio" id="felicidad" name="#1">
+                <label for="felicidad">La Felicidad</label>
+            </div>
+            <div>
+                <input type="radio" id="amor" name="#1">
+                <label for="amor">El Amor</label>
+            </div>
+            <div>
+                <input type="radio" id="vida" name="#1">
+                <label for="vida">La Vida</label>
+            </div>
+        </div>
+
+        <input class="Button" type="button" value="Comprobar" onclick="acertijo1_1()">
+    </fieldset>
+
+    <fieldset>
+        <legend>Acertijo 1.2</legend>
+        Soy un ciclo que se repite,
+        marcado por la luz y la oscuridad.
+        En mi transcurso la vida se despliega,
+        y el tiempo avanza sin cesar.
+        <br>
+        Tengo un principio y un final,
+        pero no soy eterno.
+        Soy testigo de historias y secretos,
+        y mi nombre es común y certero. ¿Qué soy?
+        <p><b>RESPUESTA</b></p>
+        <div id="divPins1_F">    
+            <div>
+                <input type="radio" id="dia" name="#2">
+                <label for="dia">El Dia</label>
+            </div>
+            <div>
+                <input type="radio" id="luna" name="#2">
+                <label for="luna">La Luna</label>
+            </div>
+            <div>
+                <input type="radio" id="estaciones" name="#2">
+                <label for="estaciones">Las Estaciones</label>
+            </div>
+            <div>
+                <input type="radio" id="vida" name="#2">
+                <label for="vida">La Vida Humana</label>
+            </div>
+        </div>
+
+        <input class="Button" type="button" value="Comprobar" onclick="acertijo1_2()">
+    </fieldset>
+
+    <fieldset>
+        <legend>Acertijo 1.3</legend>
+        En el baile o en la vida,
+        siempre andamos de dos en dos.
+        Podemos ser amigos, amantes o esposos,
+        pero nunca estaremos solos. 
+        <br>
+        ¿Qué somos?
+        <p><b>RESPUESTA</b></p>
+        <div id="divPins1_F">    
+            <div>
+                <input type="radio" id="pasos" name="#3">
+                <label for="pasos">Pasos</label>
+            </div>
+            <div>
+                <input type="radio" id="parejas" name="#3">
+                <label for="parejas">Parejas</label>
+            </div>
+            <div>
+                <input type="radio" id="ritmo" name="#3">
+                <label for="ritmo">Ritmo</label>
+            </div>
+            <div>
+                <input type="radio" id="manos" name="#3">
+                <label for="manos">Manos</label>
+            </div>
+        </div>
+
+        <input class="Button" type="button" value="Comprobar" onclick="acertijo1_3()">
+    </fieldset>
+
+    <input class="Button" type="button" value="Enviar" onclick="acertijo1_FCuestTodo()">
+</section>
+
+<dialog class="modalCuest" id="modalCuest">
+    <fieldset>
+        <legend>Acertijo 1.F <br>
+            Mis Palabras son, Amor, Dia y Parejas 
+            <br>
+            ¿Qué Soy?</legend>
+            <p><b>RESPUESTA</b></p>
+        <div class="divPins1_F">    
+            <div>
+                <input type="radio" id="SanValentin" name="#4">
+                <label for="SanValentin">San Valentin</label>
+            </div>
+            <div>
+                <input type="radio" id="CicloAmor" name="#4">
+                <label for="CicloAmor">El Ciclo del Amor</label>
+            </div>
+            <div>
+                <input type="radio" id="DanzaVida" name="#4">
+                <label for="DanzaVida">La Danza de la Vida</label>
+            </div>
+        </div>
+        <div>
+            <input type="button" class="Button" value="Atrás" onclick="acertijo1_FAatra()">
+            <input class="Button" type="button" value="Enviar" onclick="acertijo1_FF()">
+        </div>
+    </fieldset>
+</dialog>
+
+<footer>
+    <h4>Referencia</h4>
+    <a href="https://www.flaticon.es/iconos-gratis/iniciar-sesion" title="iniciar sesión iconos">Iniciar sesión iconos creados por Freepik - Flaticon</a>
+    <br>
+</footer>
+
+<script src="JS/JSAcertijo.js"></script>
+
+</body>
+</html>
