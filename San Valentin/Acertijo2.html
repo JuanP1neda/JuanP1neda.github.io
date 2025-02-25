@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/cupid.png">
+    <link rel="stylesheet" href="CSS/SAcertijos.css">
+    <title>San Valentin</title>
+</head>
+
+<body>
+<header>
+    <a href="Acertijo.html"><input type="button" value="Atrás"></a>
+    <h2>Acertijos</h2>
+    <img src="img/cupid.png" alt="" width="20%">
+</header>
+
+<dialog id="modal"  class="acertijoModelBien">
+    <div class="div_model_1">
+        <img src="img/me-gusta.png" alt="bien" width="70px">
+        <h2>¡¡Muy bien amor!!</h2>
+        <p class="pModel">Sigue asi mi amor, ya vamos para el ultimo nivel <br> El tercer dígito del código es: 7</p>
+        <a href="Acertijo3.html"><input class="buttonModelBien" type="button" value="Siguiente"></a>
+    </div>
+</dialog>
+
+<dialog id="modalMal" class="acertijoModelMal">
+    <div class="div_model_1">
+        <img src="img/no.gusta.png" alt="bien" width="70px">
+        <h2>¡¡Muy mal amor!!</h2>
+        <p class="pModel">Amor, comprueba cada acertijo con el botón comprobar para que sepas si respondes bien o mal</p>
+        <a href="Acertijo2.html"><input class="buttonModelMal" type="button" value="Reiniciar"></a>
+    </div>
+</dialog>
+
+<section>
+    
+    <fieldset>
+        <legend>Acertijo 2.1</legend>
+        Soy la sombra de lo que fui,
+        un eco de vida en un cuerpo sin fin.
+        Mis ojos vacíos buscan sin ver,
+        y mi andar es torpe, sin poder correr.
+        <br>
+        Anhelo lo que ya no tengo,
+        la calidez de un corazón que ya no siento.
+        Mi carne se pudre, pero sigo en pie,
+        un espectro de horror. 
+        <br>
+        ¿Quién soy?
+        <p><b>RESPUESTA</b></p>
+    
+        <div id="divPins1_F">    
+            <div>
+                <input type="radio" id="estatua" name="#1">
+                <label for="estatua">Una Estatua</label>
+            </div>
+            <div>
+                <input type="radio" id="zombie" name="#1">
+                <label for="zombie">Un Zombie</label>
+            </div>
+            <div>
+                <input type="radio" id="fantasma" name="#1">
+                <label for="fantasma">Un Fantasma</label>
+            </div>
+            <div>
+                <input type="radio" id="momia" name="#1">
+                <label for="momia">Una Momia</label>
+            </div>
+        </div>
+
+        <input class="Button" type="button" value="Comprobar" onclick="acertijo2_1()">
+    </fieldset>
+
+    <fieldset>
+        <legend>Acertijo 2.2</legend>
+        En rieles de acero mi camino se extiende,
+        cruzo valles y montañas, mi destino no se detiene.
+        Silbidos y estruendos anuncian mi llegada,
+        transportando sueños y recuerdos en mi larga jornada.
+        <br>
+        Soy serpiente de metal que no muerde ni daña,
+        pero mi fuerza es imponente, mi avance no engaña.
+        En mi interior viajan historias, risas y emociones,
+        de encuentros y despedidas, de amores y canciones.
+        <br>
+        ¿Quién soy?
+        <p><b>RESPUESTA</b></p>
+        <div id="divPins1_F">    
+            <div>
+                <input type="radio" id="automovil" name="#2">
+                <label for="automovil">Un Automóvil</label>
+            </div>
+            <div>
+                <input type="radio" id="barco" name="#2">
+                <label for="barco">Un Barco</label>
+            </div>
+            <div>
+                <input type="radio" id="tren" name="#2">
+                <label for="tren">Un Tren</label>
+            </div>
+            <div>
+                <input type="radio" id="avion" name="#2">
+                <label for="avion">Un Avión</label>
+            </div>
+        </div>
+
+        <input class="Button" type="button" value="Comprobar" onclick="acertijo2_2()">
+    </fieldset>
+
+    <fieldset>
+        <legend>Acertijo 2.3</legend>
+        Tierra de contrastes, donde lo antiguo y lo moderno se entrelazan, famosa por su tecnología, su cultura y sus sabores que enamoran. De montañas majestuosas a ciudades vibrantes, mi gente es amable y trabajadora, cuna de estrellas del pop y dramas que conquistan corazones sin fronteras.
+        <br>
+        ¿Qué país soy?
+        <p><b>RESPUESTA</b></p>
+    
+        <div id="divPins1_F">    
+            <div>
+                <input type="radio" id="coreaSur" name="#3">
+                <label for="coreaSur">Corea del Sur</label>
+            </div>
+            <div>
+                <input type="radio" id="japon" name="#3">
+                <label for="japon">Japón</label>
+            </div>
+            <div>
+                <input type="radio" id="china" name="#3">
+                <label for="china">China</label>
+            </div>
+            <div>
+                <input type="radio" id="taiwan" name="#3">
+                <label for="taiwan">Taiwan</label>
+            </div>
+        </div>
+
+        <input class="Button" type="button" value="Comprobar" onclick="acertijo2_3()">
+    </fieldset>
+    <input type="button"  class="Button" value="Enviar" onclick="acertijo2_FCuestTodo()">
+
+</section>
+
+<dialog class="modalCuest" id="modalCuest">
+    <fieldset>
+        <legend>Acertijo 2.F <br>
+            Mis Palabras son, Zombie, Tren y Corea del Sur
+            ¿Qué Soy?</legend>
+            <p><b>RESPUESTA</b></p>
+        <div class="divPins1_F">    
+            <div>
+                <input type="radio" id="TierraMuertos" name="#4">
+                <label for="TierraMuertos">Tierra de Muertos</label>
+            </div>
+            <div>
+                <input type="radio" id="EstaciónZ" name="#4">
+                <label for="EstaciónZ">Estación Zombie</label>
+            </div>
+            <div>
+                <input type="radio" id="SchoolZo" name="#4">
+                <label for="SchoolZo">Zombie School</label>
+            </div>
+        </div>
+        <div>
+            <input type="button" class="Button" value="Atrás" onclick="acertijo2_FAatra()">
+            <input class="Button" type="button" 
+            value="Enviar" onclick="acertijo2_FCuestFin()">
+        </div>    
+    </fieldset>
+
+</dialog>
+
+<footer>
+    <h4>Referencia</h4>
+    <a href="https://www.flaticon.es/iconos-gratis/iniciar-sesion" title="iniciar sesión iconos">Iniciar sesión iconos creados por Freepik - Flaticon</a>
+    <br>
+</footer>
+
+<script src="JS/JSAcertijo2.js"></script>
+
+</body>
+</html>

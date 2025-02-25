@@ -1,0 +1,82 @@
+:root{
+    --color-1: #758494;
+    --color-2: #49231c;
+    --color-3: white;
+    --color-4: #f15d68;
+    --color-5: #7a0811;
+}
+body{
+    background-image:url(img/fondo3.jpeg);
+}
+section{
+    background-color: var(--color-3);
+    border: 2px var(--color-5) solid;
+    border-radius: 10px;
+    padding: 30px 0px 50px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50% 10% ;
+    
+}
+h3{
+    color: var(--color-5);
+    
+}
+.campo{
+    border: solid var(--color-2) 2px;
+    border-radius: 10px;
+    width: 130px;
+    height: 20px;
+    margin: 7px 0px;
+    font-size: 15px;
+}
+.Button{
+    border: solid var(--color-2) 2px;
+    border-radius: 25px;
+    width: 80px;
+    height: 28px;
+    margin: 7px 0px 0px 0px ;
+    color: var(--color-2);
+}
+.divPins1_F{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    text-align: start;
+}
+dialog::backdrop{
+    background-color: rgba(0, 0, 0,.55);
+}
+.acertijoModelBien{
+    border-radius: 20px;
+    border: var(--color-5) solid 2px;
+}
+.acertijoModelMal{
+    border-radius: 20px;
+    border:rgb(207, 15, 15) solid 4px;
+}
+.div_model_1{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.pModel{
+    color: black;
+}
+.buttonModelBien{
+    background-color: var(--color-3);
+    border: var(--color-5) solid 2px;
+    border-radius: 10px;
+    width: 90px; height: 25px;
+}
+.buttonModelMal{
+    background-color: var(--color-3);
+    border: rgb(207, 15, 15) solid 2px;
+    border-radius: 10px;
+    width: 90px; height: 25px;
+}

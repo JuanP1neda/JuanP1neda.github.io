@@ -1,0 +1,47 @@
+:root{
+    --color-1: #758494;
+    --color-2: #49231c;
+    --color-3: white;
+    --color-4: #f15d68;
+    --color-5: #7a0811;
+}
+body{
+    background-image:url(img/fondo3.jpeg);
+}
+section{
+    background-color: var(--color-3);
+    border: 2px var(--color-5) solid;
+    border-radius: 25px;
+    padding: 30px 0px 50px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50% 10% ;
+    
+}
+h3{
+    text-align: center;
+    margin:15px 0px 0px 0px;
+    color: var(--color-5);
+    
+}
+p{
+   margin: 20px 10px;
+   text-align: center;
+   color: var(--color-2);
+}
+input{
+    border: solid var(--color-2) 2px;
+    border-radius: 25px;
+    width: 80px;
+    height: 28px;
+    color: var(--color-2);
+}
+
+.Info{
+    width: 120px;
+    height: 28px;
+    margin: 10px 0px 0px 0px;
+}

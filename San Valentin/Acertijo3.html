@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/cupid.png">
+    <link rel="stylesheet" href="CSS/SAcertijos.css">
+    <title>San Valentin</title>
+</head>
+
+<body>
+<header>
+    <a href="Acertijo2.html"><input type="button" value="Atrás"></a>
+    <h2>Acertijos</h2>
+    <img src="img/cupid.png" alt="" width="20%">
+</header>
+
+<dialog id="modal"  class="acertijoModelBien">
+    <div class="div_model_1">
+        <img src="img/me-gusta.png" alt="bien" width="70px">
+        <h2>¡¡Muy bien amor!!</h2>
+        <p class="pModel">MUy bien mi amor, ya con esto terminamos... bueno por lo menos con los acertijos y la temática "principal"<br> El cuarto dígito del código es: 5. <br> Ahora amor, toca ingresar el código para ver lo que ganaste</p>
+        <a href="AcertijoFinal.html"><input class="buttonModelBien" type="button" value="Siguiente"></a>
+    </div>
+</dialog>
+
+<dialog id="modalMal" class="acertijoModelMal">
+    <div class="div_model_1">
+        <img src="img/no.gusta.png" alt="bien" width="70px">
+        <h2>¡¡Muy mal amor!!</h2>
+        <p class="pModel">Amor, comprueba cada acertijo con el botón "comprobar" para que sepas si respondes bien o mal o pregúntame el código otra vez</p>
+        <a href="Acertijo3.html"><input class="buttonModelMal" type="button" value="Reiniciar"></a>
+    </div>
+</dialog>
+
+<section>
+    
+    <fieldset>
+        <legend>Acertijo 3.1</legend>
+        Soy un día que llega una vez al año,
+        marcado por alegría y algún que otro regalo.
+        En el calendario me encuentras fácilmente,
+        pero para ti soy único, ¡evidentemente!
+        <br>
+        ¿Que dia soy?
+        <p><b>RESPUESTA</b></p>
+    
+        <div id="divPins1_F">    
+            <div>
+                <input type="radio" id="cumpleaños" name="#1">
+                <label for="cumpleaños">El dia de tu cumpleaños</label>
+            </div>
+            <div>
+                <input type="radio" id="navidad" name="#1">
+                <label for="navidad">El dia de navidad</label>
+            </div>
+            <div>
+                <input type="radio" id="sanValentin" name="#1">
+                <label for="sanValentin">El dia de San Valentin</label>
+            </div>
+            <div>
+                <input type="radio" id="añoNuevo" name="#1">
+                <label for="AñoNuevo">El dia de año nuevo</label>
+            </div>
+        </div>
+
+        <input class="Button" type="button" value="Comprobar" onclick="acertijo3_1()">
+    </fieldset>
+
+    <fieldset>
+        <legend>Acertijo 3.2</legend>
+        Soy un momento de reflexión,
+        donde el pasado se deja ir con razón.
+        Nuevos propósitos, sueños por crear,
+        y un ciclo que pronto va a comenzar.
+        <br>
+        ¿Qué soy, que a todos nos emociona,
+        y que con alegría celebramos sin excepción?
+        <p><b>RESPUESTA</b></p>
+
+        <div id="divPins1_F">    
+            <div>
+                <input type="radio" id="añoNuevo1" name="#2">
+                <label for="añoNuevo1">El inicio de un nuevo año</label>
+            </div>
+            <div>
+                <input type="radio" id="escolar" name="#2">
+                <label for="escolar">El final de un ciclo escolar</label>
+            </div>
+            <div>
+                <input type="radio" id="graduacion" name="#2">
+                <label for="graduacion">un dia de graduación</label>
+            </div>
+            <div>
+                <input type="radio" id="cumpleaños1" name="#2">
+                <label for="cumpleaños1">El dia de tu cumpleaños</label>
+            </div>
+        </div>
+
+        <input class="Button" type="button" value="Comprobar" onclick="acertijo3_2()">
+    </fieldset>
+
+    <fieldset>
+        <legend>Acertijo 3.3</legend>
+        Soy un puente que se construye,
+        entre dos almas que se atraen.
+        Comienza con mariposas y emociones,
+        y puede crecer hasta el corazón.
+        <br>
+        ¿Qué soy, que a todos nos emociona,
+        y que con el tiempo se hace más fuerte, con dedicación?
+        <p><b>RESPUESTA</b></p>
+    
+        <div id="divPins1_F">    
+            <div>
+                <input type="radio" id="amistad" name="#3">
+                <label for="amistad">Una amistad</label>
+            </div>
+            <div>
+                <input type="radio" id="matrimonia" name="#3">
+                <label for="matrimonio">Un matrimonio</label>
+            </div>
+            <div>
+                <input type="radio" id="noviazgo" name="#3">
+                <label for="noviazgo">Un noviazgo</label>
+            </div>
+            <div>
+                <input type="radio" id="ta" name="#3">
+                <label for="ta">Todas las anteriores</label>
+            </div>
+        </div>
+
+        <input class="Button" type="button" value="Comprobar" onclick="acertijo3_3()">
+    </fieldset>
+
+    <input type="button" value="Enviar" class="Button" onclick="acertijo3_cuestTodo()">
+
+</section>
+
+<dialog class="modalCuest" id="modalCuest">
+    <fieldset>
+        <legend>Acertijo 3.F
+            <br></legend>
+            Mis Palabras son: Inicio de relación, Fin de año y Dia de Cumpleaños ¿Que soy?<br>
+            En esta pregunta tienes que respondermela a mi personalmente y yo te dare el código para finalizar
+            <p><b>CÓDIGO</b></p>
+        
+        <input class="campo" type="text" id="request3_F" placeholder="CÓDIGO">
+
+        <div>
+            <input type="button" class="Button" value="Atrás" onclick="acertijo3_FAatra()">
+            <input class="Button" type="button" value="Enviar" onclick="acertijo3_cuestFinal()">
+        </div>
+    </fieldset>
+</dialog>
+
+<footer>
+    <h4>Referencia</h4>
+    <a href="https://www.flaticon.es/iconos-gratis/iniciar-sesion" title="iniciar sesión iconos">Iniciar sesión iconos creados por Freepik - Flaticon</a>
+    <br>
+</footer>
+
+<script src="JS/JSAcertijo3.js"></script>
+
+</body>
+</html>

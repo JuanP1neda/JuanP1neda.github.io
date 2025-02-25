@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #contenedor-pdf {
+    width: 100%;
+    height: 100vh; /* Para ocupar toda la altura de la pantalla */
+  }
+  
+  #pdf-movil{
+    display: none;
+}
+
+@media (max-width: 600px) {
+    #pdf-ordenador{
+        display: none;
+    }
+
+    #pdf-movil{
+        display: block;
+    }
+
+}

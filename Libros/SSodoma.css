@@ -1,0 +1,219 @@
+:root{
+    --color-1:#2C3930;
+    --color-2:#3F4F44;
+    --color-3:#A27B5C;
+    --color-4:#DCD7C9;
+}
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    margin: 0px;
+    background-color: var(--color-3);
+}
+header{
+    background-color: var(--color-1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.imgHeader{
+    border: var(--color-3) solid 3px;
+    border-radius: 20px;
+    background-color: var(--color-4);
+    width: 100px;
+    margin: 10px 50px;
+}
+
+nav{
+    background-color: var(--color-2);
+    border: var(--color-4) solid 3px;
+    border-radius: 20px;
+    margin: 30px 300px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.modalBien{
+    width: 200px; height: 200px;
+    border: green solid 4px;
+    border-radius: 50px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+.modalBien2{
+    width: 240px; height: 240px;
+    border: green solid 4px;
+    border-radius: 50px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+.modalBien3{
+    width: 260px; height: 260px;
+    border: green solid 4px;
+    border-radius: 50px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+.imgModal{
+    width: 50px;
+}
+.Boton_modal_bien{
+    border: green solid 2px;
+    border-radius: 20px;
+    margin: 0px 0px 3px 0px;
+}
+.modalMal{
+    width: 240px; height: 250px;
+    border: red solid 4px;
+    border-radius: 50px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+.Boton_modal_mal{
+    border: red solid 2px;
+    border-radius: 20px;
+    margin: 0px ;
+}
+
+.Button{
+    border: var(--color-1) solid 2px;
+    border-radius: 10px;
+    background-color: var(--color-4);
+    width: 70px;
+}
+
+article{
+    background-color: var(--color-4);
+    border: var(--color-1) solid 5px;
+    padding: 20px;
+    margin: 20px 200px;
+    font-size: 20px;
+}
+
+legend{
+    background-color: var(--color-2);
+    border: var(--color-1) solid 3px;
+}
+fieldset{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--color-4);
+    border:var(--color-1) solid 3px;
+    margin: 0px ;
+}
+h3{
+    margin: 0px;
+}
+.divButton{
+    display: flex;
+    justify-content: center;
+}
+.ButtonC{
+    border: var(--color-1) solid 2px;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 80px;
+    margin: 0px 10px;
+}
+.divButtonEnviar{
+    display: flex;
+    justify-content: center;
+}
+
+a:hover{
+    color: var(--color-3);
+}
+a{
+    color: black;
+}
+
+footer{
+    background-color: var(--color-1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+dialog::backdrop{
+    background-color: rgba(0, 0, 0, 0.89);
+}
+#pdf-ordenador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+iframe{
+    width: 90%;
+    height: 600px;
+}
+#pdf-movil{
+    display: none;
+}
+
+@media (max-width:780px){
+    nav{
+        margin: 30px 20px;
+    }
+    .article_indice{
+        margin: 0px 150px;
+    }
+    article{
+        padding: 20px;
+        margin: 20px;
+        border: var(--color-1) solid 2px;
+        font-size: 17px;
+    }
+}
+@media (max-width:600px) {
+ .imgHeader{
+    margin: 10px;
+    width: 60px;
+ }
+ h1{
+    font-size: 15px;
+ }   
+ nav{
+    margin: 30px 20px;
+ }
+ .Button{
+    width: 60px;
+    font-size: 11px;
+    margin: 5px 0px;
+ }
+ main{
+    margin: 10px;
+ }
+
+article{
+    padding: 20px;
+    margin: 0px;
+    font-size: 15px;
+    border: var(--color-1) solid 2px;
+    font-size: 11px;
+}
+
+#pdf-ordenador{
+    display: none;
+}
+
+#pdf-movil{
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    width: 100%;
+    height: 400px;
+}
+
+}
