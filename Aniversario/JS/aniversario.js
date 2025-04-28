@@ -3,7 +3,7 @@ function iniciarSesion(){
     let pass=document.getElementById("contraseña").value;
 
         
-        if (user === "Juanp1neda") {
+        if (user === "Skyblue2005") {
           if (pass==="3013196606Juanpineda") {
             modal.showModal()
           }else{
