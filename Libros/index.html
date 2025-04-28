@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/libro-de-historia.png">
+    <link rel="stylesheet" href="SLibros.css">
+    <title>Libros</title>
+</head>
+<body>
+<header>
+    <img class="imgHeader" src="/img/libro-de-historia.png" alt="">
+    <h1>Libros</h1>
+    <img class="imgHeader" src="/img/libro-de-historia.png" alt="">
+</header>
+
+<div class="div_modal">
+    <dialog id="modalNO">
+        <img class="imgmodal" src="/img/alerta.png" alt="">
+        <h2>!!Advertencia¡¡</h2>
+        <p>Este libro aun no esta disponible, por favor espera a que llegue la semana correspondiente</p>
+        <a href=""><input class="ButtonModal" type="button" class="ButtonModal" value="Aceptar"></a>
+    </dialog>
+</div>
+
+<nav>
+    <a href="/index.html"><input class="Button" type="button" value="Atrás"></a>
+    <a href="/yo.html"><input class="Button" type="button" value="Yo"></a>
+</nav>
+
+<main>
+    <section>
+        <article>
+            <b>Introducción</b>
+            <a href="introduccionSodoma.html"><img class="imgPortada" src="img/120DiasSadoma.jpg" alt=""></a>
+            <b>Los 120 días de Sodoma</b>
+        </article>
+
+        <article>
+            <b>En Proceso</b>
+            <a href="javascript:modalNOF()"><img class="imgPortada" src="img/AireFrio.jpg" alt=""></a>
+            <b>Aire Frio</b>
+        </article>
+
+        <article>
+            <b>¿Opciones?</b>
+            <img class="imgPortada" src="" alt="">
+            <b></b>
+        </article>
+    </section>
+</main>
+
+<footer>
+    <h3>Referencia</h3>
+    <a href="https://www.flaticon.es/iconos-gratis/iniciar-sesion" title="iniciar sesión iconos">Iniciar sesión iconos creados por Freepik - Flaticon</a>
+    <br>
+</footer>
+    
+<script src="JS/modal.js"></script>
+
+</body>
+</html>

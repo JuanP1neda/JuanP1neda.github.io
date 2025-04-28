@@ -1,0 +1,88 @@
+:root{
+    --color-1: #758494;
+    --color-2: #49231c;
+    --color-3: #FFFFFF;
+    --color-4: #f15d68;
+    --color-5: #7a0811;
+}
+body{
+    background-image: url(img/fondo3.jpeg);
+    margin: 0px;
+}
+
+header{
+    height: 100px;
+    background-color: var(--color-1);
+    color: var(--color-5);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 0px 10px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+}
+.input{
+    width: 60px ;
+    height: 25px;
+    border: var(--color-5) solid 2px;
+    border-radius: 0px;
+}
+h2{
+    margin: 10px 10px;
+}
+h4{
+    margin: 10px 0px  ;
+}
+nav{
+    background-color: var(--color-3);
+    border: var(--color-5) solid 2px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--color-5);
+    height: 40px;
+    margin: 0px 20px;
+}
+input{
+    background-color: var(--color-3);
+    border: var(--color-5) solid 2px;
+    border-radius: 50px;
+    width: 70px;
+}
+section{
+    background-color: var(--color-3);
+    border: var(--color-5) solid 2px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    width: 120px;
+    margin: 5px;
+    border: var(--color-5) solid 2px;
+    
+}
+
+footer{
+    background-color: var(--color-1);
+    color: var(--color-5);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0px 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+
+}

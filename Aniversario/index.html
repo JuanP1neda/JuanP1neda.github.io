@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/aniversario.css">
+    <link rel="icon" href="/img/logoAniversario.png">
+    <title>Aniversario</title>
+</head>
+<body>
+
+    <dialog id="modalAcertijos">
+
+        <h3>Acertijo de la Revelación</h3>
+        <p class="pAcertijo">Bienvenida amor, te hare un acertijos y una pregunta en donde las respuestas de estos serán el usuario y el pin.</p>
+
+            <legend>ACERTIJO:</legend>
+            <p class="pAcertijo"> 
+            En mi interior guardo fotos, sueños y mensajes de amor. Sin mí, tu mundo virtual estaría cerrado. No soy un objeto, soy una clave.
+            En nuestras partidas, soy quien abre el portal a nuestra diversión. ¿Cómo me llamas?
+        </p>
+            <div class="divCuest">
+                <input id="acertijocText" type="text" placeholder="Respuesta del Acertijo" style="text-transform: lowercase;">
+
+                <a href=""><input type="submit" value="Comprobar" class="botonModalAcertijos" onclick="comprobarAcertijo()"></a>
+            </div>
+
+        <p class="pAcertijo">EL Usuario es mi nombre de usuario en los juegos, si no lo sabes o te cansas de investigar me puedes preguntar.</p>
+
+        <a href=""><input class="botonModalAcertijos" type="submit" value="Iniciar Sesión"></a>
+    </dialog>
+
+    <dialog id="modal" >
+        <img src="img/Bien.png" alt="bien">
+        <h3>¡Bienvenida¡</h3>
+        <p>Bienvenida amor, aquí inicia el primer regalo por mi parte de nuestro aniversario, ahora preciosa el botón "Empecemos" y iniciemos nuestra aventura.</p>
+        <a href="Principal.html"><input id="botonModal" type="submit" value="Empecemos"></a>
+    </dialog>
+
+    <dialog id="modalUserMal" class="modalMal">
+        <img src="img/Mal.png" alt="mal">
+        <h3>¡Incorrecto!</h3>
+        <p>Tu usuario no coincide, por favor, inténtalo nuevamente amor.</p>
+
+        <a href="index.html"><input class="botonModalMal" type="submit" value="Intentar de Nuevo"></a>
+    </dialog>
+
+    <dialog id="modalPassMal" class="modalMal">
+        <img src="img/Mal.png" alt="mal">
+        <h3>¡Incorrecto!</h3>
+        <p>Tu contraseña no coincide, por favor, inténtalo nuevamente amor </p>
+
+        <a href="index.html"><input class="botonModalMal" type="submit" value="Intentar de Nuevo"></a>
+    </dialog>
+
+    <main>
+        <img src="img/iniciaSesión.png" alt="InicioSesión" id="imgInicioSesion">
+        <b>¡Bienvenida!</b><br>
+        <input type="text" id="usuario" class="inputCamp" placeholder="Ingrese su Usuario" required>
+
+        <input type="password" id="contraseña" class="inputCamp" placeholder="Ingrese su Contraseña" required>
+        <div>
+            <label for="verPass">Ver Contraseña</label>
+            <input type="checkbox" id="verPass"></input>
+        </div>
+        <input type="submit" value="Iniciar Sesión" class="boton" onclick="iniciarSesion()">
+
+        <p>¿No conoces tu usuario y contraseña? <br>Haz <button class="botonRegister" onclick="regístrate()">click aquí</button>
+
+    </main>
+</body>
+<script src="JS/aniversario.js"></script>
+</html>

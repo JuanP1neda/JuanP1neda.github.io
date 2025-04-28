@@ -1,0 +1,137 @@
+:root {
+    --color-1:#1D1616;
+    --color-2:#8E1616;
+    --color-3:#D84040;
+    --color-4:#EEEEEE;
+    --borde-1: green;
+    --borde-2: red;
+}
+
+body{
+    background-image: url(/Aniversario/img/Estrellas.jpg);
+    background-position: center;
+    background-size: auto;
+    background-attachment: fixed;
+}
+header{
+    background-color: var(--color-1);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 25px;
+    border: var(--color-4) solid 4px;
+    margin-bottom: 30px;
+}
+
+.imgLogo{
+    width: 100px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background-color: var(--color-1);
+    border: var(--color-4) solid 4px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 25px;
+    padding: 5px;
+    width: 80%;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div{
+    background-color: var(--color-1);
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 25px;
+    border: var(--color-4) solid 4px;
+    width: 350px;
+    height: 175px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 30px 5px var(--color-1);
+}
+fieldset{
+    background-color: var(--color-4);
+    border: black solid 4px;
+    border-radius: 15px;
+}
+legend{
+    background-color: var(--color-4);
+    border: black solid 4px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#informacionDiv{
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    color: white;
+    margin: 0px 50px;
+    font-size: 18px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 25px;
+    background-color: var(--color-1);
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    border: var(--color-4) solid 4px;
+    margin-top: 30px;
+    width: 95%;
+}
+a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    header{
+        text-align: center;
+        padding: 5px 10px;
+    }
+    .imgLogo{
+        width: 80px;
+    }
+    fieldset{
+        font-size: 15px;
+    }
+    legend{
+        font-size: 15px;
+    }
+    #informacionDiv{
+        width: auto;
+        height: auto;
+        margin: 0px 10px;
+        font-size: 20px;
+    }
+    footer{
+        text-align: center;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,146 @@
+:root {
+    --color-1:#1D1616;
+    --color-2:#8E1616;
+    --color-3:#D84040;
+    --color-4:#EEEEEE;
+    --borde-1: green;
+    --borde-2: red;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color: var(--color-1);
+    
+}
+
+#modal{
+    width: 290px;
+    height: 290px;
+    padding: 10px;
+    border: var(--borde-1) solid 5px;
+    border-radius: 50px;
+    text-align: center;
+}
+#modalAcertijos{
+    width: 450px;
+    height: 450px;
+    padding: 10px;
+    border: var(--color-4) solid 5px;
+    background-color: var(--color-1);
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+.pAcertijo{
+    font-size: 17px;
+}
+.imgLogo{
+    width: 100px;
+    height: 100px;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.botonRegister{
+    background-color: var(--color-4);
+    border: var(--color-3) solid 2px;
+    border-radius: 50px;
+}
+.botonModalAcertijos{
+    border: var(--color-4) solid 2px;
+    background-color: var(--color-1);
+    color: white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 0px var(--color-4);
+    height: 30px;
+}
+#botonModal{
+    border: var(--borde-1) solid 2px;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+}
+.modalMal{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border: var(--borde-2) solid 5px;
+    border-radius: 50px;
+    text-align: center;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.botonModalMal{
+    border: var(--borde-2) solid 2px;
+    border-radius: 15px;
+    width: 210px;
+    height: 30px;
+    margin: 5px;
+}
+
+
+dialog::backdrop{
+    background-color: rgba(0, 0, 0,.55);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-4);
+    padding: 0px 40px 20px 40px;
+    border: var(--color-3) solid 4px;
+    border-radius: 25px;
+}
+b{
+    font-size: 25px;
+    color: var(--color-3);
+}
+p{
+    font-size: 16px;
+    text-align: center;
+}
+input{
+    margin: 10px;
+}
+#imgInicioSesion{
+    width: 200px;
+    height: 200px;
+}
+.inputCamp{
+    border-radius: 7px;
+    border: var(--color-1) solid 2px;
+    text-align: center;
+    height: 20px;
+}
+.boton{
+    margin: 5px;
+    border: var(--color-3) solid 2px;
+    border-radius: 25px;
+    padding: 5px 8px;
+}
+legend{
+    font-size: 20px;
+    color: var(--color-3);
+    text-align: center;
+    margin: 10px;
+}
+.divCuest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 600px) {
+    #modalAcertijos{
+        margin: 25px;
+    }
+}

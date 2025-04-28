@@ -1,0 +1,63 @@
+:root{
+    --color-1: #758494;
+    --color-2: #49231c;
+    --color-3: #FFFFFF;
+    --color-4: #f15d68;
+    --color-5: #7a0811;
+}
+body{
+    background-image: url(img/fondo3.jpeg);
+    margin: 0px;
+}
+
+header{
+    background-color: var(--color-1);
+    color: var(--color-5);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 0px 10px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+}
+input{
+    width: 60px ;
+    height: 25px;
+    border: var(--color-5) solid 2px;
+}
+h2{
+    margin: 10px 10px;
+}
+h4{
+    margin: 10px 0px  ;
+}
+
+.p{
+    background-color: var(--color-3);
+    margin: 20px;
+    padding: 10px 20px;
+    border: var(--color-5) solid 2px;
+}
+.article{
+    background-color: var(--color-3);
+    border: var(--color-5) solid 2px;
+    margin: 20px;
+    padding: 15px 30px;
+}
+ul{
+    list-style-type: decimal;
+}
+
+footer{
+    background-color: var(--color-1);
+    color: var(--color-5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0px 10px;
+    margin: 0px;
+    text-align: center;
+}

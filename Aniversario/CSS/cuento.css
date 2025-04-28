@@ -1,0 +1,77 @@
+:root {
+    --color-1:#1D1616;
+    --color-2:#8E1616;
+    --color-3:#D84040;
+    --color-4:#EEEEEE;
+    --borde-1: green;
+    --borde-2: red;
+}
+
+header{
+    background-color: var(--color-1);
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 25px;
+    border: var(--color-4) solid 4px;
+    margin-bottom: 30px;
+}
+
+.imgLogo{
+    width: 100px;
+}
+body{
+    background-image: url(/Aniversario/img/Estrellas.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+}
+
+article{
+    margin: 10px 50px;
+    padding: 10px 50px;
+    background-color: var(--color-1);
+    box-shadow: 0px 0px 20px 10px var(--color-1);
+    border: var(--color-4) solid 4px;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+footer{
+    background-color: var(--color-1);
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    border: var(--color-4) solid 4px;
+    margin-top: 30px;
+}
+a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    header{
+        text-align: center;
+        padding: 5px 10px;
+    }
+    .imgLogo{
+        width: 80px;
+    }
+    
+    article{
+        margin: 10px 10px;
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+    footer{
+        text-align: center;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,133 @@
+:root{
+    --color-1: #758494;
+    --color-2: #49231c;
+    --color-3: #FFFFFF;
+    --color-4: #f15d68;
+    --color-5: #7a0811;
+}
+body{
+    background-image: url(img/fondo3.jpeg);
+    margin: 0px;
+}
+
+header{
+    background-color: var(--color-1);
+    color: var(--color-5);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 0px 10px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+h2{
+    margin: 10px 10px;
+
+}
+h4{
+    margin: 10px 0px  ;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+fieldset{
+    background-color: var(--color-3);
+    border: var(--color-5) solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+legend{
+    background-color: var(--color-1);
+    border: var(--color-5) solid 2px;
+}
+p{
+    color: var(--color-5);
+    text-align: center;
+   }
+
+   
+.campo{
+    border: solid var(--color-2) 2px;
+    border-radius: 10px;
+    width: 130px;
+    height: 20px;
+    margin: 7px 0px;
+    font-size: 15px;
+}
+.Button{
+    border: solid var(--color-2) 2px;
+    border-radius: 25px;
+    width: 100px;
+    height: 28px;
+    margin: 7px 0px 0px 0px ;
+    color: var(--color-2);
+}
+.divPins1_F{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    text-align: start;
+}
+dialog::backdrop{
+    background-color: rgba(0, 0, 0,.55);
+}
+.acertijoModelBien{
+    border-radius: 20px;
+    border: green solid 4px;
+}
+.acertijoModelMal{
+    border-radius: 20px;
+    border:rgb(207, 15, 15) solid 4px;
+}
+.div_model_1{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pModel{
+    color: black;
+}
+.buttonModelBien{
+    background-color: var(--color-3);
+    border: green solid 2px;
+    border-radius: 10px;
+    width: 90px; height: 25px;
+}
+.buttonModelMal{
+    background-color: var(--color-3);
+    border: rgb(207, 15, 15) solid 2px;
+    border-radius: 10px;
+    width: 90px; height: 25px;
+}
+.modalCuest{
+    border: var(--color-5) 2px solid;
+    background-color:var(--color-1);
+    padding: 10px;
+    width: 300px;
+}
+footer{
+    background-color: var(--color-1);
+    color: var(--color-5);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0px 10px;
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+ul{
+    list-style-type: none;
+
+}

@@ -1,0 +1,48 @@
+:root{
+    --color-1:black;
+    --color-2:#3C3D37;
+    --color-3:#697565;
+    --color-4:#ECDFCC;
+}
+
+body{
+    background-color: var(--color-4);
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--color-1);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+.botonHeader{
+    font-size: 16px;
+    background-color: var(--color-2);
+    color: white;
+    border: solid var(--color-4) 2px ;
+    border-radius: 10px;
+    width: 100px;
+    margin: 10px;
+}
+.imagenHeader{
+    width: 80px;
+    margin: 10px;
+}
+
+
+
+a{
+    color: var(--color-4);
+}
+footer{
+    display: flex;
+    background-color: var(--color-1);
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    flex-direction: column;
+    color: var(--color-4);
+}
