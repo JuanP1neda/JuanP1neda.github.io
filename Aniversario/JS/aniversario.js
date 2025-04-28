@@ -24,6 +24,7 @@ verPassButton.addEventListener("click", () => {
 });
 
 function regístrate(){
+  alert("Recuerda amor en 'Respuesta del Acertijo' escribe en minúscula")
   modalAcertijos.showModal();
 }
 
